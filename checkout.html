@@ -1,45 +1,58 @@
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <div class="row" id="row">
-            <div class="col-md-6 offset-3">
-                <div class="card">
-                    <div class="card-header">
-                        <h5>Pedido N° 650</h5>
-                    </div>
-                    <div class="card-body">
-                        <div style="text-align: center;">
-                            <img src="/images/logo.jpg" alt="El Buen Sabor">
-                        </div>
-                        <hr>
-                        <h4>Descripcion</h4>
-                        <p>
-                            1 Pizza Muzarella, 2 Lomos Completos, 1 Cerveza Quilmes, 1 Coca-Cola 2L
-                        </p>
-                        <hr>
-                        <h4>Precio $ 2800</h4>
-                        <div>
-                            <form action="http://localhost:3000/checkout" method="POST" target="_blank">
-                                <input type="hidden" name="title" value="Pedido N° 650">
-                                <input type="hidden" name="description" value="1 Pizza Muzarella, 2 Lomos Completos, 1 Cerveza Quilmes, 1 Coca-Cola 2L">
-                                <input type="hidden" name="price" value="2500">
-                                <input type="submit" value="Comprar ahora" class="btn btn-primary btn-block">
-                            </form>
-                        </div>
-                    </div>
-                </div>
+      <div class="row" id="row">
+        <div class="col-md-6 offset-3">
+          <div class="card">
+            <div class="card-header">
+              <h5>Pedido N° 650</h5>
             </div>
+            <div class="card-body">
+              <div style="text-align: center">
+                <img src="/images/logo.jpg" alt="El Buen Sabor" />
+              </div>
+              <hr />
+              <h4>Descripcion</h4>
+              <p>
+                1 Pizza Muzarella, 2 Lomos Completos, 1 Cerveza Quilmes, 1
+                Coca-Cola 2L
+              </p>
+              <hr />
+              <h4>Precio $ 2800</h4>
+              <div>
+                <form
+                  action="http://localhost:3000/checkout"
+                  method="POST"
+                  target="_blank"
+                >
+                  <input type="hidden" name="title" value="Pedido N° 650" />
+                  <input
+                    type="hidden"
+                    name="description"
+                    value="1 Pizza Muzarella, 2 Lomos Completos, 1 Cerveza Quilmes, 1 Coca-Cola 2L"
+                  />
+                  <input type="hidden" name="price" value="2500" />
+                  <input
+                    type="submit"
+                    value="Comprar ahora"
+                    class="btn btn-primary btn-block"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
+      <!-- CAMBIO ANTES DEL DEPLOY -->
     </div>
-
-</body>
-
+  </body>
 </html>
