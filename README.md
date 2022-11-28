@@ -53,7 +53,7 @@ npm run dev
 
 
 ## Repositorios del proyecto 💾
-[BACKEND](https://github.com/Cortinezjuan/El_Buen_Sabor) ➖ [FRONTEND](https://github.com/FernandoCabrera06/El_Buen_Sabor_Frontend/tree/main) ➖ [MERCADO PAGO](https://github.com/Cortinezjuan/elBuenSaborMP)
+[BACKEND](https://github.com/Cortinezjuan/El_Buen_Sabor) ➖ [FRONTEND](https://github.com/FernandoCabrera06/El_Buen_Sabor_Frontend) ➖ [MERCADO PAGO](https://github.com/Cortinezjuan/elBuenSaborMP)
 
 
 
