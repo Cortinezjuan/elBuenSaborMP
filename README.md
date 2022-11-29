@@ -63,4 +63,4 @@ npm run dev
 
 
 ## Video demostrativo del proyecto 📺️
-Link: https://youtu.be/u3JlbA7qtC
+Link: https://youtu.be/u3JlbA7qtCs
