@@ -50,10 +50,10 @@ npm run dev
 ```
 4️⃣ En el navegador dirigirse a [http://localhost:3000](http://localhost:3000)
 
-s
 
 ## Repositorios del proyecto 💾
 [BACKEND](https://github.com/Cortinezjuan/El_Buen_Sabor) ➖ [FRONTEND](https://github.com/FernandoCabrera06/El_Buen_Sabor_Frontend) ➖ [MERCADO PAGO](https://github.com/Cortinezjuan/elBuenSaborMP)
+
 
 ## Video demostrativo del proyecto 📺️
 Link: https://youtu.be/u3JlbA7qtC
